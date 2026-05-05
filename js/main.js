@@ -63,6 +63,12 @@ function showMyFastfetch() {
     print(art);
 }
 
+window.onload = () => {
+    print("Welcome to SolomonOS v1.0");
+    print("Type 'help' to see available commands.");
+    input.focus();
+};
+
 input.addEventListener('keydown', function(e) {
     if (e.key === 'Tab') {
         e.preventDefault();
